@@ -1,0 +1,10 @@
+plugins {
+    id("groovy-gradle-plugin")
+}
+
+sourceCompatibility = JavaVersion.VERSION_19
+targetCompatibility = JavaVersion.VERSION_19
+
+repositories {
+    mavenCentral()
+}
